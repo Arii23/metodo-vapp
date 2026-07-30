@@ -3,7 +3,8 @@
 ======================================== */
 
 :root {
-    --color-background: #f8f4ef;
+    --color-background: #faf7f3;
+    --color-section: #f2ebe3;
     --color-surface: #ffffff;
     --color-primary: #173f36;
     --color-secondary: #ce634f;
@@ -275,7 +276,8 @@ a {
 ======================================== */
 
 .about {
-    padding: 70px 0;
+    padding: 60px 0;
+    background-color: var(--color-background);
 }
 
 .about__container {
@@ -319,13 +321,90 @@ a {
     font-size: 0.9rem;
 }
 
+/* ========================================
+   MÉTODO VAPP
+======================================== */
 
+.method {
+    padding: 58px 0 64px;
+    background-color: var(--color-section);
+}
+
+.method__header {
+    max-width: 650px;
+    margin: 0 auto 32px;
+    text-align: center;
+}
+
+.method__header .section-title {
+    margin-bottom: 10px;
+    font-size: clamp(1.8rem, 3vw, 2.35rem);
+}
+
+.method__description {
+    max-width: 560px;
+    margin-inline: auto;
+    color: var(--color-text);
+    font-size: 0.78rem;
+    line-height: 1.6;
+}
+
+.method__grid {
+    display: grid;
+    max-width: 920px;
+    margin-inline: auto;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 14px;
+}
+
+.method-card {
+    min-height: 170px;
+    padding: 21px 18px;
+    border: 1px solid #e5d8cf;
+    border-radius: 12px;
+    background-color: #ffffff;
+    text-align: left;
+    transition:
+        transform 0.25s ease,
+        box-shadow 0.25s ease,
+        border-color 0.25s ease;
+}
+
+.method-card:hover {
+    transform: translateY(-4px);
+    border-color: #d7bdb2;
+    box-shadow: 0 12px 25px rgb(23 63 54 / 8%);
+}
+
+.method-card__letter {
+    display: block;
+    margin-bottom: 3px;
+    color: var(--color-secondary);
+    font-family: var(--font-title);
+    font-size: 1.85rem;
+    line-height: 1;
+}
+
+.method-card__title {
+    margin-bottom: 7px;
+    color: var(--color-primary);
+    font-family: var(--font-title);
+    font-size: 0.95rem;
+    font-weight: normal;
+    line-height: 1.3;
+}
+
+.method-card__text {
+    color: var(--color-text);
+    font-size: 0.72rem;
+    line-height: 1.55;
+}
 /* ========================================
    RESPONSIVE
 ======================================== */
 
 @media (max-width: 850px) {
-    .stats__container {
+   .stats__container {
         grid-template-columns: repeat(2, 1fr);
     }
 
@@ -349,11 +428,15 @@ a {
     .about__image {
         height: 280px;
     }
+
+    .method__grid {
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
 
 
 @media (max-width: 650px) {
-    .header {
+  .header {
         padding: 16px 0;
     }
 
@@ -387,7 +470,7 @@ a {
     }
 
     .about {
-        padding: 55px 0;
+        padding: 50px 0;
     }
 
     .about__container {
@@ -404,8 +487,21 @@ a {
         height: 360px;
     }
 
-    .about__content {
-        text-align: left;
+    .method {
+        padding: 52px 0;
+    }
+
+    .method__header {
+        margin-bottom: 28px;
+    }
+
+    .method__grid {
+        grid-template-columns: 1fr;
+    }
+
+    .method-card {
+        min-height: auto;
+        padding: 22px 20px;
     }
 }
 
