@@ -16,33 +16,67 @@
     <title>Método VAPP</title>
 
     <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="product.css">
    <script src="index.js" defer></script>
 </head>
 
 <body>
 
-    <!-- Encabezado -->
-    <header class="header">
-        <div class="container header__container">
+   <!-- ========================================
+     ENCABEZADO
+========================================= -->
 
-            <a href="#" class="header__logo" aria-label="Ir al inicio">
-                <div class="logo-icon" aria-hidden="true">
-                    <span class="logo-icon__needle"></span>
-                </div>
+<header class="header">
 
-                <div class="logo-text">
-                    <span class="logo-text__title">
-                        MÉTODO <strong>VAPP</strong>
-                    </span>
+    <!-- Barra superior -->
+    <div class="header__topbar">
 
-                    <span class="logo-text__subtitle">
-                        Conseguí trabajo con estrategia, no suerte
-                    </span>
-                </div>
-            </a>
+        <a
+            href="index.html"
+            class="header__symbol"
+            aria-label="Ir al inicio"
+        >
+            <span class="header__compass" aria-hidden="true"></span>
+        </a>
 
-        </div>
-    </header>
+        <a
+            href="login.html"
+            class="header__login"
+        >
+            Iniciar sesión
+        </a>
+
+    </div>
+
+
+    <!-- Franja con identidad de marca -->
+    <div class="header__brand">
+
+        <a
+            href="index.html"
+            class="header__logo"
+            aria-label="Método VAPP - Ir al inicio"
+        >
+
+            <div class="logo-icon" aria-hidden="true"></div>
+
+            <div class="logo-text">
+
+                <span class="logo-text__title">
+                    MÉTODO <strong>VAPP</strong>
+                </span>
+
+                <span class="logo-text__subtitle">
+                    Conseguí trabajo con estrategia, no suerte
+                </span>
+
+            </div>
+
+        </a>
+
+    </div>
+
+</header>
 
 
     <main>
@@ -330,7 +364,7 @@
                 </ul>
 
                 <a
-                    href="#"
+                    href="revision-cv.html"
                     class="service-card__button service-card__button--outline"
                 >
                     Quiero mi revisión
