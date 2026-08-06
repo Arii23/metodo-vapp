@@ -520,7 +520,708 @@ a {
     font-size: 0.68rem;
 }
 
+/* ========================================
+   PACK CV + LINKEDIN
+======================================== */
 
+.cover__title--pack {
+    font-size: 1.55rem;
+    white-space: nowrap;
+}
+
+.cover__drawing--linkedin {
+    width: 175px;
+    margin-top: 19px;
+}
+
+.cover__drawing--linkedin .pack-folder {
+    fill: #c66a50;
+    stroke: none;
+}
+
+.cover__drawing--linkedin .pack-document {
+    fill: rgb(255 255 255 / 62%);
+    stroke: #c9c0b7;
+}
+
+.cover__drawing--linkedin .pack-connection {
+    stroke: #d2ab62;
+    stroke-width: 1.4;
+}
+
+.cover__drawing--linkedin .linkedin-card {
+    fill: #ffffff;
+    stroke: #31584d;
+}
+
+.cover__drawing--linkedin .linkedin-card__header {
+    fill: #31584d;
+    stroke: none;
+}
+
+.cover__drawing--linkedin .linkedin-avatar {
+    fill: #d4b18e;
+    stroke: #31584d;
+}
+
+.information__section-title {
+    margin-top: 30px !important;
+    font-size: 0.73rem !important;
+    font-weight: 700 !important;
+    text-transform: uppercase;
+}
+
+.check-list {
+    max-width: 1000px;
+    margin: 11px 0 22px;
+}
+
+.check-list p {
+    margin-bottom: 14px;
+}
+
+.process-list {
+    max-width: 1000px;
+    margin: 12px 0 25px;
+    padding-left: 20px;
+    font-size: 0.69rem;
+    line-height: 1.55;
+}
+
+.process-list li {
+    margin-bottom: 14px;
+}
+
+
+/* Responsive del Pack */
+
+@media (max-width: 650px) {
+
+    .cover__title--pack {
+        font-size: 1.35rem;
+        white-space: normal;
+    }
+
+    .cover__drawing--linkedin {
+        width: 155px;
+    }
+
+    .information__section-title {
+        margin-top: 24px !important;
+    }
+
+}
+
+/* ========================================
+   PROGRAMA VAPP
+======================================== */
+
+.cover__title--program {
+    font-size: 1.7rem;
+    white-space: nowrap;
+}
+
+.cover__drawing--program {
+    width: 185px;
+    margin-top: 22px;
+    overflow: visible;
+}
+
+.cover__drawing--program .program-path {
+    fill: none;
+    stroke: #ddd4c8;
+    stroke-width: 5;
+}
+
+.cover__drawing--program .program-point {
+    stroke: none;
+}
+
+.cover__drawing--program .program-point--coral {
+    fill: #bc654f;
+}
+
+.cover__drawing--program .program-point--gold {
+    fill: #d99d2c;
+}
+
+.cover__drawing--program .program-point--green {
+    fill: #31584d;
+}
+
+.cover__drawing--program .program-letter {
+    fill: #31584d;
+    stroke: none;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 18px;
+    font-weight: 700;
+}
+
+.cover__drawing--program .program-compass {
+    fill: none;
+    stroke: #947851;
+    stroke-width: 2;
+}
+
+.program-week-title {
+    margin: 22px 0 9px !important;
+    font-size: 0.72rem !important;
+    font-weight: normal !important;
+    text-transform: none !important;
+}
+
+@media (max-width: 650px) {
+    .cover__title--program {
+        font-size: 1.45rem;
+        white-space: normal;
+    }
+
+    .cover__drawing--program {
+        width: 165px;
+    }
+}
+
+/* ========================================
+   ORIENTACIÓN DE PRIMER EMPLEO
+======================================== */
+
+.cover__title--first-job {
+    max-width: 220px;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 1.55rem;
+    line-height: 1.08;
+}
+
+.cover__drawing--first-job {
+    width: 190px;
+    margin-top: 23px;
+    overflow: visible;
+}
+
+.cover__drawing--first-job .firstjob-cap {
+    fill: #31584d;
+    stroke: #31584d;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-width: 2;
+}
+
+.cover__drawing--first-job .firstjob-arrow {
+    fill: none;
+    stroke: #d4a735;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-width: 2;
+}
+
+.cover__drawing--first-job .firstjob-document {
+    fill: #f7f2e9;
+    stroke: #31584d;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-width: 2;
+}
+
+.cover__drawing--first-job .firstjob-document-line {
+    fill: none;
+    stroke: #31584d;
+    stroke-linecap: round;
+    stroke-width: 1.7;
+}
+
+.cover__drawing--first-job .firstjob-cv {
+    fill: #31584d;
+    stroke: none;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 17px;
+    font-weight: 700;
+}
+/* ========================================
+   REDACCIÓN DE CV PROFESIONAL
+======================================== */
+
+.cover__title--writing {
+    max-width: 230px;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 1.55rem;
+    line-height: 1.08;
+}
+
+.cover__drawing--writing {
+    width: 175px;
+    margin-top: 17px;
+    overflow: visible;
+}
+
+.cover__drawing--writing .writing-sheet {
+    fill: #f8f3ea;
+    stroke: #31584d;
+    stroke-width: 2;
+}
+
+.cover__drawing--writing .writing-sheet--back {
+    fill: #bf654d;
+    stroke: #a95540;
+}
+
+.cover__drawing--writing .writing-avatar {
+    fill: #f1e5d8;
+    stroke: #aa6b4e;
+    stroke-width: 2;
+}
+
+.cover__drawing--writing .writing-avatar-line {
+    fill: none;
+    stroke: #aa6b4e;
+    stroke-linecap: round;
+    stroke-width: 1.6;
+}
+
+.cover__drawing--writing .writing-line {
+    fill: none;
+    stroke: #af765d;
+    stroke-linecap: round;
+    stroke-width: 1.7;
+}
+
+.cover__drawing--writing .writing-pen {
+    fill: #e1c09b;
+    stroke: #31584d;
+    stroke-linejoin: round;
+    stroke-width: 2;
+}
+
+.cover__drawing--writing .writing-pen-tip {
+    fill: #31584d;
+    stroke: #31584d;
+}
+
+.cover__drawing--writing .writing-check-circle {
+    fill: #d4a735;
+    stroke: none;
+}
+
+.cover__drawing--writing .writing-check {
+    fill: none;
+    stroke: #ffffff;
+    stroke-linecap: round;
+    stroke-linejoin: round;
+    stroke-width: 2;
+}
+
+/* ========================================
+   TRADUCCIÓN DE CV A INGLÉS
+======================================== */
+
+.cover__title--translation {
+    max-width: 230px;
+    margin-right: auto;
+    margin-left: auto;
+    font-size: 1.55rem;
+    line-height: 1.08;
+}
+
+.cover__drawing--translation {
+    width: 185px;
+    margin-top: 16px;
+    overflow: visible;
+}
+
+.cover__drawing--translation .translation-sheet {
+    stroke-width: 2;
+}
+
+.cover__drawing--translation .translation-sheet--green {
+    fill: #31584d;
+    stroke: #21453c;
+}
+
+.cover__drawing--translation .translation-sheet--coral {
+    fill: #bf654d;
+    stroke: #984b3b;
+}
+
+.cover__drawing--translation .translation-avatar {
+    fill: #f5eadf;
+    stroke: #8f513f;
+    stroke-width: 2;
+}
+
+.cover__drawing--translation .translation-avatar--light {
+    fill: #f5eadf;
+    stroke: #f5eadf;
+}
+
+.cover__drawing--translation .translation-avatar-line {
+    fill: none;
+    stroke: #8f513f;
+    stroke-linecap: round;
+    stroke-width: 1.7;
+}
+
+.cover__drawing--translation .translation-avatar-line--light {
+    stroke: #31584d;
+}
+
+.cover__drawing--translation .translation-line {
+    fill: none;
+    stroke: #f3e7da;
+    stroke-linecap: round;
+    stroke-width: 1.7;
+}
+
+.cover__drawing--translation .translation-line--light {
+    stroke: #e9ddd1;
+}
+
+.cover__drawing--translation .translation-pen {
+    fill: #31584d;
+    stroke: #203f37;
+    stroke-linejoin: round;
+    stroke-width: 2;
+}
+
+.cover__drawing--translation .translation-pen-tip {
+    fill: #d2ae7d;
+    stroke: #31584d;
+    stroke-width: 1.5;
+}
+
+.cover__drawing--translation .translation-globe {
+    fill: #f8f1e6;
+    stroke: #d4a735;
+    stroke-width: 2;
+}
+
+.cover__drawing--translation .translation-globe-line {
+    fill: none;
+    stroke: #d4a735;
+    stroke-linecap: round;
+    stroke-width: 1.4;
+}
+
+
+/* ========================================
+   COMBO REVISIÓN DE CV + KIT 6 SEGUNDOS
+======================================== */
+
+.payment__old-price {
+    margin: 0 0 3px;
+    color: #6d645e;
+    font-size: 0.76rem;
+    text-decoration: line-through;
+}
+
+.payment__price-row {
+    display: flex;
+    align-items: center;
+    gap: 9px;
+}
+
+.payment__price-row .payment__price {
+    margin: 0;
+}
+
+.payment__discount {
+    padding: 3px 8px;
+    border-radius: 4px;
+    background: #d5614d;
+    color: #ffffff;
+    font-size: 0.55rem;
+    font-weight: 700;
+}
+
+.payment__currency {
+    margin: 4px 0 13px;
+    color: #665d57;
+    font-size: 0.62rem;
+}
+
+
+/* Portada */
+
+.cover--combo-review {
+    position: relative;
+    overflow: hidden;
+}
+
+.cover--combo-review::before,
+.cover--combo-review::after {
+    position: absolute;
+    border-radius: 50%;
+    content: "";
+    pointer-events: none;
+}
+
+.cover--combo-review::before {
+    top: -45px;
+    right: -45px;
+    width: 125px;
+    height: 125px;
+    background: #f3e3c9;
+}
+
+.cover--combo-review::after {
+    bottom: -47px;
+    left: -47px;
+    width: 120px;
+    height: 120px;
+    background: #e8e3d9;
+}
+
+.combo-cover__badge {
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    margin-bottom: 12px;
+    padding: 6px 15px;
+    border-radius: 999px;
+    background: #b85e48;
+    color: #ffffff;
+    font-size: 0.72rem;
+    font-weight: 700;
+    letter-spacing: 0.18em;
+}
+
+.cover__title--combo-review {
+    position: relative;
+    z-index: 1;
+    margin-bottom: 2px;
+    font-size: 1.5rem;
+}
+
+.cover__subtitle--combo {
+    position: relative;
+    z-index: 1;
+    margin-top: 0;
+    color: #d5614d;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 1.25rem;
+    font-style: italic;
+}
+
+.combo-cover__products {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 13px;
+    margin: 20px auto 15px;
+}
+
+.combo-cover__product {
+    display: flex;
+    width: 95px;
+    min-height: 88px;
+    padding: 9px 6px 7px;
+    border: 1px solid #e3d8ce;
+    border-radius: 9px;
+    background: #ffffff;
+    box-shadow: 0 3px 6px rgb(59 44 33 / 10%);
+    align-items: center;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.combo-cover__product span {
+    margin-top: 2px;
+    color: #31584d;
+    font-size: 0.53rem;
+    font-weight: 700;
+}
+
+.combo-cover__icon {
+    width: 48px;
+    height: 48px;
+}
+
+.combo-cover__plus {
+    display: grid;
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    background: #e3a52c;
+    color: #ffffff;
+    font-size: 1.15rem;
+    font-weight: 700;
+    place-items: center;
+}
+
+.combo-review__paper {
+    fill: #f8f3ea;
+    stroke: #31584d;
+    stroke-width: 3;
+}
+
+.combo-review__line {
+    fill: none;
+    stroke: #b9644d;
+    stroke-linecap: round;
+    stroke-width: 2;
+}
+
+.combo-review__glass {
+    fill: none;
+    stroke: #b9644d;
+    stroke-linecap: round;
+    stroke-width: 3;
+}
+
+.combo-kit__box {
+    fill: #f8f3ea;
+    stroke: #31584d;
+    stroke-width: 3;
+}
+
+.combo-kit__header {
+    fill: #31584d;
+    stroke: none;
+}
+
+.combo-kit__star {
+    fill: #dfa62a;
+    stroke: none;
+}
+
+.combo-cover__separate {
+    position: relative;
+    z-index: 1;
+    margin: 0;
+    color: #7a7069;
+    font-size: 0.65rem;
+}
+
+.combo-cover__separate span {
+    margin-left: 5px;
+    text-decoration: line-through;
+}
+
+.combo-cover__price {
+    position: relative;
+    z-index: 1;
+    margin: 3px 0 5px;
+    color: #d5614d;
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: 1.75rem;
+}
+
+.combo-cover__saving {
+    position: relative;
+    z-index: 1;
+    display: inline-block;
+    padding: 5px 13px;
+    border-radius: 999px;
+    background: #31584d;
+    color: #ffffff;
+    font-size: 0.62rem;
+    font-weight: 700;
+}
+
+
+/* Varios archivos */
+
+.file-card--multiple {
+    display: block;
+    padding: 0;
+    overflow: hidden;
+}
+
+.file-card__row {
+    display: flex;
+    min-height: 50px;
+    padding: 0 14px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.file-card__row + .file-card__row {
+    border-top: 1px solid #e4ddd6;
+}
+
+.file-card__icon--zip {
+    background: #e79d24;
+}
+
+
+/* Responsive */
+
+@media (max-width: 650px) {
+
+    .payment__price-row {
+        flex-wrap: wrap;
+    }
+
+    .cover__title--combo-review {
+        font-size: 1.3rem;
+    }
+
+    .cover__subtitle--combo {
+        font-size: 1.08rem;
+    }
+
+    .combo-cover__products {
+        gap: 7px;
+    }
+
+    .combo-cover__product {
+        width: 82px;
+    }
+
+    .combo-cover__plus {
+        width: 24px;
+        height: 24px;
+        font-size: 1rem;
+    }
+
+}
+
+
+@media (max-width: 650px) {
+
+    .cover__title--translation {
+        font-size: 1.35rem;
+    }
+
+    .cover__drawing--translation {
+        width: 165px;
+    }
+
+}
+
+@media (max-width: 650px) {
+
+    .cover__title--writing {
+        font-size: 1.35rem;
+    }
+
+    .cover__drawing--writing {
+        width: 160px;
+    }
+
+}
+@media (max-width: 650px) {
+
+    .cover__title--first-job {
+        font-size: 1.35rem;
+    }
+
+    .cover__drawing--first-job {
+        width: 170px;
+    }
+
+}
+@media (max-width: 650px) {
+    .cover__title--first-job {
+        font-size: 1.35rem;
+    }
+
+    .cover__drawing--first-job {
+        width: 175px;
+    }
+}
 /* ========================================
    RESPONSIVE
 ======================================== */
